@@ -81,7 +81,6 @@ li[data-type="${map.get(key)["html_css_or_field_hardcoded_name"]}"] {
 
   }
 
-  console.log(css);
   applyStyles(css);
 }
 
