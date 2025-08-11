@@ -30,9 +30,7 @@ export function build_css(setting_u, map) {
 }        
 
 /* mobile side bar icon */
-.toolbar__icon[data-type="sidebar-${
-          map.get(key)["html_css_or_field_hardcoded_name"]
-        }-tab"] {
+.toolbar__icon[data-type="sidebar-${map.get(key)["html_css_or_field_hardcoded_name"]}-tab"] {
   display: none !important;
   }
 
@@ -42,9 +40,7 @@ export function build_css(setting_u, map) {
         css += `
 
 /* slash menu */
-.layout-tab-container .protyle .protyle-hint.b3-list.b3-list--background.hint--menu button[data-id="${
-          map.get(key)["html_css_or_field_hardcoded_name"]
-        }"]{
+.layout-tab-container .protyle .protyle-hint.b3-list.b3-list--background.hint--menu button[data-id="${map.get(key)["html_css_or_field_hardcoded_name"]}"]{
   display: none !important;
 }
 
@@ -53,19 +49,40 @@ export function build_css(setting_u, map) {
         css += `
 
 /* block or editor menu */
-#commonMenu .b3-menu__items > button[data-id="${
-          map.get(key)["html_css_or_field_hardcoded_name"]
-        }"] {
+#commonMenu .b3-menu__items > button[data-id="${map.get(key)["html_css_or_field_hardcoded_name"]}"] {
     display: none;
 }
 
         
 `;
+
+      }
+
+
+      ///////edge case helper /////////
+      // Switcher menu hider, switcher as the one that you press ctrl + tab
+      if (key.includes("side_bar_outline") ||
+        key.includes("side_bar_inbox") ||
+        key.includes("side_bar_bookmark") ||
+        key.includes("side_bar_tag") ||
+        key.includes("side_bar_graph") ||
+        key.includes("side_bar_global_graph") ||
+        key.includes("side_bar_backlink")) {
+        // li item, data-type = hardcoded name
+        css += `
+/* side bar switcher menu */
+li[data-type="${map.get(key)["html_css_or_field_hardcoded_name"]}"] {
+  display: none !important;
+}
+`;
       }
     }
 
-    applyStyles(css);
+
   }
+
+  console.log(css);
+  applyStyles(css);
 }
 
 export function rmvMenuItems(
