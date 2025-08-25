@@ -1,6 +1,7 @@
 .idea
 .vscode
 .DS_Store
+.cursorrules
 package.zip
 node_modules
 dev

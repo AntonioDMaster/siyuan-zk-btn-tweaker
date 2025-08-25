@@ -1,7 +1,7 @@
 {
-  "name": "siyuan_rmv_btn",
-  "author": "zxkmm",
-  "url": "https://github.com/zxkmm/siyuan_rmv_btn",
+  "name": "siyuan-zk-btn-tweaker",
+  "author": "AntonioDMaster",
+  "url": "https://github.com/AntonioDMaster/siyuan-zk-btn-tweaker",
   "version": "2.0.2",
   "minAppVersion": "2.10.14",
   "backends": [
@@ -20,12 +20,12 @@
     "browser-mobile"
   ],
   "displayName": {
-    "en_US": "SiYuan remove buttons",
-    "zh_CN": "移除按钮"
+    "en_US": "UI Buttons Tweaker",
+    "zh_CN": "UI 按钮调整"
   },
   "description": {
-    "en_US": "A plugin to remove menu items and buttons you don't really need.",
-    "zh_CN": "一个移除你不想要的按钮/菜单项的插件，覆盖电脑和手机"
+    "en_US": "A plugin to hide redundant UI elements. ",
+    "zh_CN": "一个移除你不想要的 UI 元素的插件，覆盖电脑和手机"
   },
   "readme": {
     "en_US": "README.md",
@@ -33,7 +33,7 @@
   },
   "funding": {
     "custom": [
-      "https://github.com/zxkmm/zxkmm"
+      ""
     ]
   },
   "keywords": [
@@ -45,7 +45,6 @@
     "remove",
     "hide",
     "menu",
-    "siyuan_rmv_btn",
-    "zxkmm"
+    "siyuan-zk-btn-tweaker"
   ]
 }

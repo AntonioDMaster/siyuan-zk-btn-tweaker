@@ -1,11 +1,11 @@
 {
-  "name": "siyuan_rmv_btn",
+  "name": "siyuan-zk-btn-tweaker",
   "version": "2.0.2",
   "type": "module",
   "description": "A plugin to remove menu items you don't really need.",
-  "repository": "https://github.com/zxkmm/siyuan_rmv_btn",
-  "homepage": "https://github.com/zxkmm/siyuan_rmv_btn",
-  "author": "zxkmm",
+  "repository": "https://github.com/AntonioDMaster/siyuan-zk-btn-tweaker",
+  "homepage": "https://github.com/AntonioDMaster/siyuan-zk-btn-tweaker",
+  "author": "AntonioDMaster",
   "license": "MIT",
   "scripts": {
     "make-link": "node  --no-warnings ./scripts/make_dev_link.js",
