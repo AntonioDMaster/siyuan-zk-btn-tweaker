@@ -1,5 +1,6 @@
 {
   "reload_hint": "Reload the interface to apply the latest changes.",
   "uninstall_hint": "Succesfully uninstalled UI Buttons Tweaker.",
-  "rmvBtnSetting": "UI Buttons Tweaker: Settings"
+  "rmvBtnSetting": "UI Buttons Tweaker: Settings",
+  "footerOriginalCode": "Original code by zxkmm"
 }

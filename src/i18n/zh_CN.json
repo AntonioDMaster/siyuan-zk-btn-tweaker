@@ -1,5 +1,6 @@
 {
   "reload_hint": "重载界面以应用最新更改",
   "uninstall_hint": "成功卸载 UI 按钮微调器。",
-  "rmvBtnSetting": "UI 按钮微调器：设置"
+  "rmvBtnSetting": "UI 按钮微调器：设置",
+  "footerOriginalCode": "原始代码来自 zxkmm"
 }

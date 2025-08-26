@@ -1,9 +1,12 @@
-# siyuan_rmv_btn
+# siyuan-zk-btn-tweaker
+
+*siyuan-zk-project aims to deliver a minimal set of Zettelkasten features to SiYuan*
+
 A SiYuan Plugin that able to remove the buttons in menu that you don't really use.     
 It currently support removing top bar icons, side bar icons, and menus with id `commonMenu`, which are two icons on top right corner of each doc, and calling from the right side of each paragraph. 
 
 # Download
-go to release page or go to SiYuan's market and search `siyuan_rmv_btn` 
+go to release page
 
 # Warning
 - If you removed too much items and end up stopped working, please go to your workspace and delete the entire `siyuan_rmv_btn` folder.
@@ -11,19 +14,11 @@ go to release page or go to SiYuan's market and search `siyuan_rmv_btn`
 - No garenteen for 3rd party themes.    
 
 # Links
-repo/Source Code：https://github.com/zxkmm/siyuan_rmv_btn  
+repo/Source Code：https://github.com/AntonioDMaster/siyuan-zk-btn-tweaker  
 
-Download：https://github.com/zxkmm/siyuan_rmv_btn/releases or search `siyuan_rmv_btn` in SiYuan market
-
-Reporting Bugs / Submitting Feqture request：https://github.com/zxkmm/siyuan_rmv_btn/issues   
+Download：https://github.com/AntonioDMaster/siyuan-zk-btn-tweaker/releases   
 
 Forum / thread (Chinese)：https://ld246.com/article/1701669406727   
-
-# Note
-Please star⭐ my GitHub repository if you like this plugin. [https://github.com/zxkmm/siyuan_rmv_btn](https://github.com/zxkmm/siyuan_rmv_btn)
-
-# TODO
- - friendly interface   
 
  # Credits   
 [SiYuan](https://github.com/siyuan-note/siyuan)   ([in b3log](https://b3log.org/siyuan/))
@@ -34,6 +29,7 @@ Please star⭐ my GitHub repository if you like this plugin. [https://github.com
 
 [@zxhd863943427](https://github.com/zxhd863943427) ([in b3log](https://ld246.com/member/zxhd86))  
 
+[@zxkmm](https://github.com/zxkmm)
 
 # Additional Attachment to MIT License
 

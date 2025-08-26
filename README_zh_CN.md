@@ -1,4 +1,6 @@
-# 思源移除按钮
+# siyuan-zk-btn-tweaker
+
+*siyuan-zk-project aims to deliver a minimal set of Zettelkasten features to SiYuan*
 
 ## 乞讨
 这款插件是开源免费的，因此我需要您的鼓励。  

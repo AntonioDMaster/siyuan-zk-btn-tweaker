@@ -1,3 +1,5 @@
+// Original code by zxkmm from https://github.com/zxkmm/siyuan_rmv_btn
+// Modified by AntonioDMaster
 // NB: why this need a map even though they are literally same name?
 // cuz they are mapping my plugin's identifier and siyuan 's hard coded name in html, they could change sometimes maybe.
 

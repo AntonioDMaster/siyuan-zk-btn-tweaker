@@ -1,3 +1,6 @@
+// Original code by zxkmm from https://github.com/zxkmm/siyuan_rmv_btn
+// Modified by AntonioDMaster
+
 declare global {
   var windowControls: any;
   var closeWindow: any;
@@ -124,7 +127,12 @@ export default class siyuan_rmv_btn extends Plugin {
       });
     }
 
-    
+    this.settingUtils.addItem({
+      key: "footerOriginalCode",
+      value: "",
+      type: "hint",
+      title: this.i18n.footerOriginalCode,
+    });
 
     if (this.isMobile) {
       this.addTopBar({
